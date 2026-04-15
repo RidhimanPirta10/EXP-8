@@ -1,8 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const jwt = require('jsonwebtoken');
 
 const app = express();
+app.use(cors());
 app.use(bodyParser.json());
 
 const JWT_SECRET = 'your_secret_key';

@@ -1,0 +1,14 @@
+.login-card,
+.dashboard-card {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}
+
+body {
+  background: #f5f7fb;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
